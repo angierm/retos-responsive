@@ -1,0 +1,33 @@
+
+body {
+ background: url("images/dawn.png"); /*Primer paisaje-background*/
+ background-repeat: no-repeat;
+ background-size:cover;
+
+}
+
+}
+.cat-image {
+
+background-repeat: no-repeat;
+background-position:center;
+
+}
+
+@media all and (max-width: 950px) {
+    body {
+     background-image:url(images/sunny-day.jpg); /*Segundo paisaje-background*/
+}
+    img {
+     content: url(images/kitten-medium.png); /*Aquí va la segunda imagen de gatito viendo de frente*/
+  }
+}
+
+@media all and (max-width: 520px) {
+    body {
+      background-image:url(images/night.jpg); /*Tercer paisaje-background*/
+}
+    img {
+      content: url(images/kitten-small.png);  /*Aquí va la tercera imagen de gatito descansando*/
+  }
+}

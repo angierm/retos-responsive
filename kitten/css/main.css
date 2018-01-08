@@ -1,0 +1,18 @@
+
+body {
+  background-image: url("../images/sunny-day.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+
+}
+.girar { transform: rotate(-5deg);
+
+}
+@media all and (max-width: 850px;) {
+body {
+    background-image:url("../images/sunny-day.jpg");
+    }
+  img {
+      content:url("../images/kitten-large.png");
+    }
+}
